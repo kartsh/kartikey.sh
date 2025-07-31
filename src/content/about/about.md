@@ -7,10 +7,10 @@ This content will be displayed at the top of the index page.
 You can leave this empty if you don’t want to show any content.
 -->
 
-A static blog theme based on [Astro](https://astro.build), designed for clarity and focus.
+Hello. I'm Kart. 
 
-With a deliberately minimal design, this layout ensures your content takes center stage. It's built for flexibility, offering customization options that honor its clean and elegant aesthetic.
+I work as a backend software engineer at AWS on [Amazon Connect Customer Profiles](https://aws.amazon.com/connect/customer-profiles/) - a cloud service to consolidate siloed end-customer data into unified profiles, generate metrics, segment them into audiences, trigger events from clickstreams, and more.
 
-Effortlessly share your thoughts in _a calm & dustless space._
+I live in Vancouver BC. In my free time, I enjoy classic sitcoms like _Community_ and _Arrested Development_, being obnoxious about music, and falling into Wikipedia holes. I also like jetskis. My favorite book that I read recently was _Red Rising_.
 
-Check posts for details and view source on [GitHub](https://github.com/the3ash/astro-chiri).
+In a previous life, I was a big fan of [_HPMOR_](https://hpmor.com/) and spent some time on India's spelling bee circuit.
