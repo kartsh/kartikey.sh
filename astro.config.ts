@@ -18,7 +18,7 @@ import path from 'path'
  
 export default defineConfig({
 //   adapter: netlify(),
-  base: 'kartikey.sh',
+  // base: 'kartikey.sh',
   site: themeConfig.site.website,
   image: {
     service: {
