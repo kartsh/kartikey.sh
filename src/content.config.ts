@@ -21,4 +21,11 @@ const about = defineCollection({
   schema: z.object({})
 })
 
-export const collections = { posts, about }
+const colophon = defineCollection({
+  // Load Markdown file in the `src/content/colophon/` directory.
+  loader: glob({ base: './src/content/colophon', pattern: '**/*.md' }),
+  // Type-check frontmatter using a schema
+  schema: z.object({})
+})
+
+export const collections = { posts, about, colophon }

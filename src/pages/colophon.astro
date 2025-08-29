@@ -1,0 +1,15 @@
+---
+import IndexLayout from '@/layouts/IndexLayout.astro'
+import { getEntry, render } from 'astro:content'
+
+const colophonEntry = await getEntry('colophon', 'colophon')
+const { Content } = colophonEntry ? await render(colophonEntry) : { Content: null }
+---
+
+{
+  Content && <IndexLayout title="Colophon" description="Colophon">
+    <div class="colophon prose">
+      <Content />
+    </div>
+  </IndexLayout>
+}

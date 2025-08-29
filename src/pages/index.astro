@@ -5,6 +5,9 @@ import PostList from '@/components/widgets/PostList.astro'
 import { themeConfig } from '@/config'
 import { getSortedFilteredPosts } from '@/utils/draft'
 
+// TODO: On clicking the Resume, the URL in the address bar says: `http://localhost:4321/public/pdf/resume-kartikey-sharma-20250715.pdf`
+// which we probably want to be different.
+
 const posts = await getSortedFilteredPosts()
 ---
 

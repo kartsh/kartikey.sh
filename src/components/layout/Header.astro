@@ -1,11 +1,17 @@
 ---
 import { themeConfig } from '@/config'
 import ThemeToggle from '@/components/ui/ThemeToggle.astro'
+
+// TODO: There are flashes of the light theme when navigating between pages for the first time after the site is loaded/reloaded.
 ---
 
 <header>
   <nav>
     <a href="/">{themeConfig.site.title}</a>
+    <div class="linkbar">
+      <a href="/public/pdf/resume-kartikey-sharma-20250715.pdf">Résumé</a>
+      <a href="/colophon">Colophon</a>
+    </div>
     <ThemeToggle />
   </nav>
 </header>
@@ -13,16 +19,40 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
   header {
     margin: 0;
   }
+  
   nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
   }
+
   header a {
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     text-decoration: none;
     min-width: 3rem;
     display: inline-block;
+  }
+
+  .linkbar {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+  }
+
+  .linkbar a {
+    font-weight: var(--font-weight-light);
+    opacity: 0.4;
+    transition: opacity 0.15s ease-out;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .linkbar:hover a {
+      opacity: 0.4;
+    }
+
+    .linkbar:hover a:hover {
+      opacity: 1;
+    }
   }
 </style>
