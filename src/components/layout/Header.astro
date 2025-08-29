@@ -9,8 +9,9 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
   <nav>
     <a href="/">{themeConfig.site.title}</a>
     <div class="linkbar">
-      <a href="/public/pdf/resume-kartikey-sharma-20250715.pdf">Résumé</a>
-      <a href="/colophon">Colophon</a>
+      <!-- TODO: Figure out cleaner way than adding /kartikey.sh/ prefix -->
+      <a href="/kartikey.sh/public/pdf/resume-kartikey-sharma-20250715.pdf">Résumé</a>
+      <a href="/kartikey.sh/colophon">Colophon</a>
     </div>
     <ThemeToggle />
   </nav>

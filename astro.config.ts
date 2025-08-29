@@ -18,7 +18,7 @@ import path from 'path'
 // TODO: Routing is broken because GitHub Page URL is https://kartsh.github.io/kartikey.sh/, and instead of going to kartikey.sh/colophon, it goes to kartsh.github.io/colophon, which doesn't exist. kartsh.github.io/kartikey.sh/colophon does work.
 export default defineConfig({
 //   adapter: netlify(),
-  // base: '/',
+  base: '/kartikey.sh',
   site: themeConfig.site.website,
   image: {
     service: {
