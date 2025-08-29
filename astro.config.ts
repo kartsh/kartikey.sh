@@ -16,7 +16,7 @@ import { imageConfig } from './src/utils/image-config'
 import path from 'path'
 
 export default defineConfig({
-  base: 'kartikey.sh',
+  // base: 'kartikey.sh',
   site: themeConfig.site.website,
   image: {
     service: {
