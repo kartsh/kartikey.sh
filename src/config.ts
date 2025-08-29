@@ -3,7 +3,7 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://kartsh.github.io', // Site domain
+    website: 'https://kartsh.github.io/kartikey.sh', // Site domain
     title: 'KARTIKEY SHARMA (a.k.a. Kart)', // Site title
     author: 'Kartikey Sharma', // Author name
     description: 'The personal website of Kartikey Sharma', // Site description

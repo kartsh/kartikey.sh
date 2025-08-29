@@ -15,10 +15,10 @@ import { themeConfig } from './src/config'
 import { imageConfig } from './src/utils/image-config'
 import path from 'path'
 // import netlify from '@astrojs/netlify'
- 
+// TODO: Routing is broken because GitHub Page URL is https://kartsh.github.io/kartikey.sh/, and instead of going to kartikey.sh/colophon, it goes to kartsh.github.io/colophon, which doesn't exist. kartsh.github.io/kartikey.sh/colophon does work.
 export default defineConfig({
 //   adapter: netlify(),
-  base: '/',
+  // base: '/',
   site: themeConfig.site.website,
   image: {
     service: {
