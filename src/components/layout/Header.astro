@@ -7,11 +7,12 @@ import ThemeToggle from '@/components/ui/ThemeToggle.astro'
 
 <header>
   <nav>
-    <a href="/kartikey.sh/">{themeConfig.site.title}</a>
+    <a href="/">{themeConfig.site.title}</a>
     <div class="linkbar">
       <!-- TODO: Figure out cleaner way than adding /kartikey.sh/ prefix -->
-      <a href="/kartikey.sh/pdf/resume-kartikey-sharma-20250715.pdf">Résumé</a>
-      <a href="/kartikey.sh/colophon">Colophon</a>
+       <!-- TODO: Eventually moving to kartikey.sh domain. Will need to remove the prefix then. -->
+      <a href="=/pdf/resume-kartikey-sharma-20250715.pdf">Résumé</a>
+      <a href="/colophon">Colophon</a>
     </div>
     <ThemeToggle />
   </nav>
